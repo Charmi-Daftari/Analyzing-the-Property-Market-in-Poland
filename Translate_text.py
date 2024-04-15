@@ -11,7 +11,7 @@ start_time = time.time()
 
 # Create connection with Snowflake account 
 engine = create_engine(URL(
-    account = '######',
+    account = '#######',
     user = 'charmidaftari',
     password = '#####',
     database = 'otodom',
