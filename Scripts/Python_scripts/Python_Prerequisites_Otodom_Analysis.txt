@@ -1,4 +1,4 @@
-1) Go to Terminal --> Create new virtual environment using conda and activate it
+1) Go to Terminal --> Create new virtual environment using conda and activate the virtual environment
 
 	conda create --name project57test1 python=3.11
 	conda activate project57test1
@@ -13,12 +13,10 @@
 	pip install gspread-dataframe
 
 
-	Additional packages for geocode & google translate
+	-> Additional packages for geocode & google translate
 	pip install geopy
 	pip install dask
 	pip install deep-translator
 
 
-3) Go to vscode and open the python script and change python interpreter to point to the above created virtual environment.
-
-4) 
+3) Go to VScode and open the python script, change python interpreter to point to the above created virtual environment.
